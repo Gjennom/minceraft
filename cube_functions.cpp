@@ -33,8 +33,7 @@ void render_world(Camera3D camera, std::vector<block> world){
       1.0f,
       1.0f,
       BLUE);
-  }
-  EndMode3D();
+  }EndMode3D();
   DrawFPS(10, 10);
   EndDrawing();
 }
